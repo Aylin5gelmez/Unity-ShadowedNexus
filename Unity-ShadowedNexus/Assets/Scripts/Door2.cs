@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Doors : MonoBehaviour
+public class Door2 : MonoBehaviour
 {
     public Animator door;
     public GameObject openText;
+    public GameObject closeText;
 
     public AudioSource doorSound;
 
@@ -47,9 +48,22 @@ public class Doors : MonoBehaviour
 
         if (inReach && Input.GetButtonDown("Interact"))
         {
-            DoorOpens();
+            if (gameObject.CompareTag("Has1Key"))
+            {
+                DoorOpens();
+
+            }
+            else
+            {
+                closeText.SetActive(true);
+
+            }
         }
 
+        if (!inReach)
+        {
+            closeText.SetActive(false);
+        }
 
 
     }
