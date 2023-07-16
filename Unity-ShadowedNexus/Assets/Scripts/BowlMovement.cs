@@ -46,7 +46,7 @@ public class BowlMovement : MonoBehaviour
         if (score >= targetScore)
         {
             UpdateScoreText();
-            SceneManager.LoadScene("YouWin");
+            SceneManager.LoadScene("MainHospital");
             
         }
     }
