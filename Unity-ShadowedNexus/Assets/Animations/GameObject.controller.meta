@@ -1,6 +1,11 @@
 fileFormatVersion: 2
-guid: 119619333b1847341a183fc4f8ddb150
+<<<<<<<< Updated upstream:Unity-ShadowedNexus/Assets/Animations/GameObject.controller.meta
+guid: 800cc4851eed53e4c9fa8abd07b21655
 NativeFormatImporter:
+========
+guid: a91215e2b75917a4b87e8f8f87f90d6b
+DefaultImporter:
+>>>>>>>> Stashed changes:Unity-ShadowedNexus/Assets/Scenes/Splash.unity.meta
   externalObjects: {}
   mainObjectFileID: 9100000
   userData: 

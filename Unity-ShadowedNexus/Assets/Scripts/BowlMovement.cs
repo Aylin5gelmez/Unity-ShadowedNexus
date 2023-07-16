@@ -9,7 +9,8 @@ public class BowlMovement : MonoBehaviour
     public float movementSpeed = 30f;
     public TextMeshProUGUI scoreText;
     public int score = 0;
-    public int targetScore = 5000;
+    public int targetScore = 500;
+    public GameObject panel;
 
     void Start()
     {
@@ -46,7 +47,8 @@ public class BowlMovement : MonoBehaviour
         if (score >= targetScore)
         {
             UpdateScoreText();
-            SceneManager.LoadScene("MainHospital");
+            Time.timeScale = 0.0f;
+            panel.SetActive(true);
             
         }
     }
