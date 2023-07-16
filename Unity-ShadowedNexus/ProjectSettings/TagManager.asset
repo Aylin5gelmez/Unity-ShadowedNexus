@@ -6,10 +6,6 @@ TagManager:
   tags:
   - Ground
   - Reach
-  - Bomb
-  - Fruit
-  - Has1Key
-  - Has2Key
   layers:
   - Default
   - TransparentFX
