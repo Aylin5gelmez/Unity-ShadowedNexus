@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: a921a6ed83a26ee418c96c195a8c3f3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.6473032, y: 0.23724279}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 126, y: 79, z: 62, w: 304}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunny-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 376
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ed71576f35c642bcd5773c6182405
+      internalID: 1935705876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 376
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a690fb9bf3e1b54b94d8853827db83e
+      internalID: 1794606465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 376
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cbbb25bb98fff4294cf7e9dda1d387
+      internalID: 1249581068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 376
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca4144871981104e977a01ff5ad3ae0
+      internalID: 398964616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 302
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b68c992c5a0ce742b3bf34fafb63464
+      internalID: 1884841012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 299
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2b8a65b667d5841ab8ebea8fe71df2
+      internalID: 1605149224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 299
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637d3337e82d1674fb53b5696f95490c
+      internalID: -167427595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 300
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbc9f80228175f4aa697dac02d6931f
+      internalID: -960257603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 225
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c3002c1706874db991060e76d7f0e
+      internalID: -435840118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 225
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0de5637f634ecd42b77198a131265a2
+      internalID: -458279909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 222
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bca13bb14747af4fa5cc7d6bb226067
+      internalID: 599960964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 223
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5a5ed1ea06e748bcb7954930588b7
+      internalID: 638428369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 149
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b096de5cca387e14fa5500961edccaf3
+      internalID: -1141439319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 149
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ff1c0eb64229b4ea3a7ffdd2d5cc96
+      internalID: 1393743065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 151
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07fe71b06c2a34b82fece4d924c653
+      internalID: -1680051055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 151
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cbcbd93d37aaa44bde1494dc851d4f
+      internalID: 17183498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 77
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880a61bacbcaddd4f80859f7f9eab4ea
+      internalID: -690959280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 80
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc43c53234f7c34e9a92c1cd3b6b2ee
+      internalID: 483861577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 80
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708a846bb3b127489f3a1fa45ca48ad
+      internalID: 1486820515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 80
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21221b2d5bec31a4a84b11ba692e49e8
+      internalID: -298730477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ac89a5c1762cc4b9ca755caefcfb99
+      internalID: -798279196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 6
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632337049f51c96439fd1a013782bfd3
+      internalID: -1238487141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b973e9d446e367742904dc66453e2c88
+      internalID: -838207267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -77, y: -149}
+      - {x: -78, y: -152}
+      - {x: -78, y: -155}
+      - {x: -76, y: -159}
+      - {x: -76, y: -163}
+      - {x: -77, y: -162}
+      - {x: -78, y: -154}
+      - {x: -81, y: -149}
+      - {x: -86, y: -149}
+      - {x: -89, y: -150}
+      - {x: -89, y: -218}
+      - {x: -60, y: -218}
+      - {x: -60, y: -149}
+    - - {x: -15, y: -149}
+      - {x: -34, y: -149}
+      - {x: -34, y: -218}
+      - {x: -8, y: -218}
+      - {x: -5, y: -214}
+      - {x: -5, y: -195}
+      - {x: -10, y: -156}
+    - - {x: 22, y: -149}
+      - {x: 21, y: -166}
+      - {x: 21, y: -218}
+      - {x: 48, y: -218}
+      - {x: 50, y: -217}
+      - {x: 50, y: -177}
+      - {x: 44, y: -149}
+    - - {x: -60, y: -122}
+      - {x: -65, y: -111}
+      - {x: -91, y: -111}
+      - {x: -98, y: -114}
+      - {x: -98, y: -145}
+      - {x: -94, y: -147}
+      - {x: -74, y: -147}
+      - {x: -65, y: -144}
+      - {x: -61, y: -138}
+      - {x: -60, y: -132}
+    - - {x: -22, y: -86}
+      - {x: -30, y: -86}
+      - {x: -31, y: -89}
+      - {x: -31, y: -92}
+      - {x: -29, y: -96}
+      - {x: -29, y: -100}
+      - {x: -30, y: -99}
+      - {x: -31, y: -91}
+      - {x: -36, y: -86}
+      - {x: -42, y: -86}
+      - {x: -42, y: -120}
+      - {x: -35, y: -144}
+      - {x: -9, y: -144}
+      - {x: -5, y: -138}
+      - {x: -5, y: -112}
+      - {x: -12, y: -89}
+    - - {x: 28, y: -82}
+      - {x: 25, y: -85}
+      - {x: 25, y: -88}
+      - {x: 27, y: -92}
+      - {x: 27, y: -96}
+      - {x: 26, y: -95}
+      - {x: 25, y: -87}
+      - {x: 21, y: -82}
+      - {x: 14, y: -82}
+      - {x: 14, y: -111}
+      - {x: 19, y: -141}
+      - {x: 21, y: -144}
+      - {x: 45, y: -144}
+      - {x: 50, y: -143}
+      - {x: 50, y: -116}
+      - {x: 35, y: -82}
+    - - {x: 91, y: -79}
+      - {x: 83, y: -79}
+      - {x: 82, y: -82}
+      - {x: 82, y: -85}
+      - {x: 84, y: -89}
+      - {x: 84, y: -93}
+      - {x: 83, y: -92}
+      - {x: 82, y: -84}
+      - {x: 77, y: -79}
+      - {x: 72, y: -79}
+      - {x: 71, y: -81}
+      - {x: 71, y: -105}
+      - {x: 76, y: -144}
+      - {x: 100, y: -144}
+      - {x: 105, y: -141}
+      - {x: 105, y: -102}
+      - {x: 102, y: -83}
+    - - {x: -79, y: -28}
+      - {x: -101, y: -48}
+      - {x: -101, y: -67}
+      - {x: -85, y: -75}
+      - {x: -60, y: -75}
+      - {x: -60, y: -30}
+      - {x: -61, y: -28}
+    - - {x: -49, y: -64}
+      - {x: -42, y: -75}
+      - {x: -3, y: -75}
+      - {x: -3, y: -53}
+      - {x: -11, y: -36}
+      - {x: -46, y: -36}
+      - {x: -49, y: -44}
+    - - {x: 38, y: -37}
+      - {x: 19, y: -37}
+      - {x: 12, y: -53}
+      - {x: 12, y: -73}
+      - {x: 37, y: -73}
+      - {x: 46, y: -72}
+      - {x: 50, y: -66}
+      - {x: 50, y: -46}
+    - - {x: 74, y: -37}
+      - {x: 67, y: -51}
+      - {x: 67, y: -72}
+      - {x: 68, y: -73}
+      - {x: 99, y: -73}
+      - {x: 101, y: -72}
+      - {x: 105, y: -64}
+      - {x: 105, y: -45}
+      - {x: 95, y: -37}
+    - - {x: 36, y: 46}
+      - {x: 10, y: 46}
+      - {x: 7, y: 37}
+      - {x: 7, y: 4}
+      - {x: 10, y: 0}
+      - {x: 17, y: -2}
+      - {x: 31, y: -2}
+      - {x: 45, y: 1}
+      - {x: 46, y: 7}
+      - {x: 46, y: 40}
+    - - {x: 95, y: 30}
+      - {x: 86, y: 27}
+      - {x: 88, y: 30}
+      - {x: 90, y: 32}
+      - {x: 91, y: 43}
+      - {x: 86, y: 45}
+      - {x: 74, y: 45}
+      - {x: 63, y: 25}
+      - {x: 63, y: 12}
+      - {x: 69, y: 0}
+      - {x: 70, y: -1}
+      - {x: 88, y: -1}
+      - {x: 103, y: 12}
+      - {x: 103, y: 28}
+      - {x: 101, y: 31}
+    - - {x: -106, y: 7}
+      - {x: -88, y: 1}
+      - {x: -60, y: 1}
+      - {x: -60, y: 46}
+      - {x: -94, y: 46}
+      - {x: -103, y: 39}
+      - {x: -106, y: 29}
+    - - {x: -51, y: 6}
+      - {x: -50, y: 1}
+      - {x: -11, y: 1}
+      - {x: -1, y: 2}
+      - {x: -1, y: 21}
+      - {x: -4, y: 32}
+      - {x: -21, y: 49}
+      - {x: -41, y: 49}
+      - {x: -51, y: 32}
+    - - {x: -27, y: 116}
+      - {x: -35, y: 116}
+      - {x: -35, y: 110}
+      - {x: -33, y: 106}
+      - {x: -33, y: 102}
+      - {x: -34, y: 103}
+      - {x: -35, y: 111}
+      - {x: -38, y: 116}
+      - {x: -43, y: 116}
+      - {x: -46, y: 115}
+      - {x: -46, y: 86}
+      - {x: -42, y: 75}
+      - {x: -15, y: 75}
+      - {x: -9, y: 77}
+      - {x: -5, y: 86}
+      - {x: -5, y: 99}
+      - {x: -8, y: 106}
+    - - {x: 23, y: 116}
+      - {x: 20, y: 113}
+      - {x: 20, y: 110}
+      - {x: 22, y: 106}
+      - {x: 22, y: 102}
+      - {x: 21, y: 103}
+      - {x: 20, y: 111}
+      - {x: 17, y: 116}
+      - {x: 11, y: 116}
+      - {x: 9, y: 115}
+      - {x: 9, y: 93}
+      - {x: 10, y: 79}
+      - {x: 15, y: 75}
+      - {x: 38, y: 75}
+      - {x: 46, y: 76}
+      - {x: 50, y: 85}
+      - {x: 50, y: 101}
+      - {x: 31, y: 116}
+    - - {x: 78, y: 117}
+      - {x: 75, y: 114}
+      - {x: 75, y: 111}
+      - {x: 77, y: 107}
+      - {x: 77, y: 103}
+      - {x: 76, y: 104}
+      - {x: 75, y: 112}
+      - {x: 72, y: 117}
+      - {x: 66, y: 117}
+      - {x: 64, y: 116}
+      - {x: 64, y: 94}
+      - {x: 65, y: 80}
+      - {x: 67, y: 76}
+      - {x: 96, y: 76}
+      - {x: 105, y: 78}
+      - {x: 105, y: 101}
+      - {x: 88, y: 117}
+    - - {x: -79, y: 128}
+      - {x: -86, y: 128}
+      - {x: -89, y: 125}
+      - {x: -89, y: 122}
+      - {x: -87, y: 118}
+      - {x: -87, y: 114}
+      - {x: -88, y: 115}
+      - {x: -89, y: 123}
+      - {x: -92, y: 128}
+      - {x: -98, y: 128}
+      - {x: -100, y: 127}
+      - {x: -100, y: 104}
+      - {x: -99, y: 91}
+      - {x: -89, y: 78}
+      - {x: -64, y: 78}
+      - {x: -60, y: 83}
+      - {x: -60, y: 100}
+    - - {x: -84, y: 210}
+      - {x: -86, y: 207}
+      - {x: -86, y: 204}
+      - {x: -84, y: 200}
+      - {x: -84, y: 196}
+      - {x: -85, y: 197}
+      - {x: -86, y: 205}
+      - {x: -89, y: 210}
+      - {x: -97, y: 210}
+      - {x: -97, y: 175}
+      - {x: -92, y: 152}
+      - {x: -61, y: 152}
+      - {x: -60, y: 153}
+      - {x: -60, y: 188}
+      - {x: -73, y: 210}
+    - - {x: -42, y: 210}
+      - {x: -42, y: 176}
+      - {x: -36, y: 152}
+      - {x: -5, y: 152}
+      - {x: -5, y: 175}
+      - {x: -16, y: 205}
+      - {x: -25, y: 210}
+    - - {x: 27, y: 210}
+      - {x: 24, y: 207}
+      - {x: 24, y: 204}
+      - {x: 26, y: 200}
+      - {x: 26, y: 196}
+      - {x: 25, y: 197}
+      - {x: 24, y: 205}
+      - {x: 21, y: 210}
+      - {x: 13, y: 210}
+      - {x: 13, y: 183}
+      - {x: 17, y: 158}
+      - {x: 24, y: 152}
+      - {x: 46, y: 152}
+      - {x: 50, y: 160}
+      - {x: 50, y: 174}
+      - {x: 34, y: 210}
+    - - {x: 86, y: 207}
+      - {x: 80, y: 207}
+      - {x: 77, y: 204}
+      - {x: 77, y: 201}
+      - {x: 79, y: 197}
+      - {x: 79, y: 193}
+      - {x: 78, y: 194}
+      - {x: 77, y: 202}
+      - {x: 74, y: 207}
+      - {x: 68, y: 207}
+      - {x: 66, y: 206}
+      - {x: 66, y: 186}
+      - {x: 67, y: 176}
+      - {x: 75, y: 152}
+      - {x: 102, y: 152}
+      - {x: 105, y: 155}
+      - {x: 105, y: 176}
+    physicsShape:
+    - - {x: 28, y: -82}
+      - {x: 25, y: -85}
+      - {x: 25, y: -88}
+      - {x: 27, y: -92}
+      - {x: 27, y: -96}
+      - {x: 26, y: -95}
+      - {x: 25, y: -87}
+      - {x: 21, y: -82}
+      - {x: 14, y: -82}
+      - {x: 14, y: -111}
+      - {x: 19, y: -141}
+      - {x: 21, y: -144}
+      - {x: 45, y: -144}
+      - {x: 50, y: -143}
+      - {x: 50, y: -116}
+      - {x: 35, y: -82}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bunny-Sheet_6: -167427595
+      bunny-Sheet_12: -1141439319
+      bunny-Sheet_11: 638428369
+      bunny-Sheet_7: -960257603
+      bunny-Sheet_14: -1680051055
+      bunny-Sheet_13: 1393743065
+      bunny-Sheet_0: 1935705876
+      bunny-Sheet_22: -838207267
+      bunny-Sheet_3: 398964616
+      bunny-Sheet_5: 1605149224
+      bunny-Sheet_8: -435840118
+      bunny-Sheet_15: 17183498
+      bunny-Sheet_9: -458279909
+      bunny-Sheet_18: 1486820515
+      bunny-Sheet_1: 1794606465
+      bunny-Sheet_20: -798279196
+      bunny-Sheet_4: 1884841012
+      bunny-Sheet_21: -1238487141
+      bunny-Sheet_17: 483861577
+      bunny-Sheet_2: 1249581068
+      bunny-Sheet_19: -298730477
+      bunny-Sheet_16: -690959280
+      bunny-Sheet_10: 599960964
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
