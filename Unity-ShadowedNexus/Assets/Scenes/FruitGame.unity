@@ -442,16 +442,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1267659666}
     - target: {fileID: -4214803287318731332, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4214803287318731332, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 772156544}
     - target: {fileID: -4214803287318731332, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
       propertyPath: targetScore
-      value: 500
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 896390932395908032, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
       propertyPath: m_RootOrder
@@ -497,18 +493,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 896390932395908034, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
-      propertyPath: m_Size.y
-      value: 0.88156873
-      objectReference: {fileID: 0}
-    - target: {fileID: 896390932395908034, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
-      propertyPath: m_Offset.y
-      value: 1.1021775
-      objectReference: {fileID: 0}
-    - target: {fileID: 896390932395908035, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 896390932395908039, guid: 627857afc0d00be4482dba2d7fe90296, type: 3}
       propertyPath: m_Name
       value: Bowl
@@ -951,7 +935,6 @@ GameObject:
   - component: {fileID: 1750452908}
   - component: {fileID: 1750452907}
   - component: {fileID: 1750452906}
-  - component: {fileID: 1750452905}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -959,18 +942,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1750452905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750452904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &1750452906
 AudioListener:
   m_ObjectHideFlags: 0

@@ -27,6 +27,14 @@ public class BowlMovement : MonoBehaviour
         float rangeX = Mathf.Clamp(transform.position.x, -screenRange + bowlRange, screenRange - bowlRange);
         transform.position = new Vector3(rangeX, transform.position.y, transform.position.z);
         UpdateScoreText();
+        if (score >= targetScore)
+        {
+            LoadNextScene();
+        }
+    }
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

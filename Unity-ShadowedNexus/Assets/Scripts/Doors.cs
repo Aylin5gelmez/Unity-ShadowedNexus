@@ -7,15 +7,11 @@ public class Doors : MonoBehaviour
     public Animator door;
     public GameObject openText;
     public GameObject closeText;
-
+    public GameObject player;
 
     public AudioSource doorSound;
 
-
     public bool inReach;
-
-
-
 
     void Start()
     {
@@ -40,10 +36,6 @@ public class Doors : MonoBehaviour
         }
     }
 
-
-
-
-
     void Update()
     {
         isItLocked();
@@ -65,7 +57,7 @@ public class Doors : MonoBehaviour
 
     void isItLocked()
     {
-        if (inReach && Input.GetButtonDown("Interact") && tag.Equals("Has1Key"))
+        if (inReach && Input.GetButtonDown("Interact") && player.CompareTag("Has1Key"))
         {
             DoorOpens();
         }
@@ -74,6 +66,4 @@ public class Doors : MonoBehaviour
             StartCoroutine(WaitAndShowText());
         }
     }
-
-
 }
