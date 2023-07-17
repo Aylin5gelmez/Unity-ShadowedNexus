@@ -926,7 +926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179762262}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.72, y: 0.51, z: -4.854238}
+  m_LocalPosition: {x: 6.29, y: 0.47, z: -4.854238}
   m_LocalScale: {x: 0.57643235, y: 0.40413782, z: 0.4854238}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7501,6 +7501,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6270527686177566329, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6270527686177566329, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -496029457
+      objectReference: {fileID: 0}
     - target: {fileID: 6270527686177566331, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
       propertyPath: m_Name
       value: Sweet girl
@@ -7895,6 +7903,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 686146795, guid: c39737d4817982c469bee46a79ae8c58, type: 3}
+      propertyPath: clickSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84c4a817d27dbc54484def8f9f0d8044, type: 3}
     - target: {fileID: 3233543593540554768, guid: c39737d4817982c469bee46a79ae8c58, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -9207,8 +9219,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 82847469
-  m_SortingLayer: 0
+  m_SortingLayerID: -550933115
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.54999995, y: 0.20499998, z: 0}
@@ -12059,8 +12071,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -926524457
-  m_SortingLayer: 0
+  m_SortingLayerID: 512608245
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
