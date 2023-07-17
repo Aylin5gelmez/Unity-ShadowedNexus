@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextScene : MonoBehaviour
+public class NextScene1 : MonoBehaviour
 {
     public GameObject Button;
     public bool active = true;

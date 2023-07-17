@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Splash.unity
-    guid: a91215e2b75917a4b87e8f8f87f90d6b
+    guid: a660fcb68e98c62479492ad5ca98aa1f
   - enabled: 1
     path: Assets/Scenes/MainHospital.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -20,4 +23,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YouWin.unity
     guid: ad13655c97c046b4aac7a6b334d4ae70
+  - enabled: 1
+    path: Assets/Scenes/EntryScene.unity
+    guid: ebcf9ee1c40d0af48b9eec40866b9764
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 50301eaf88b221d4e83a103c5abc29f6
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 65858d8d60dcb8a4da17b1039d32d2fe
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 3111093404e506a4b841ac16281b035d
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: ecd42b2c5d50ca940b5fb7e2ee73098f
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: cf7f4d78ca040a04cac50894b0d0b78c
   m_configObjects: {}

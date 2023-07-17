@@ -628,7 +628,7 @@ Light:
   m_Color: {r: 0.9433962, g: 0.70419765, b: 0.45745817, a: 1}
   m_Intensity: 1.5
   m_Range: 15
-  m_SpotAngle: 39
+  m_SpotAngle: 50
   m_InnerSpotAngle: 2
   m_CookieSize: 10
   m_Shadows:
@@ -690,10 +690,6 @@ PrefabInstance:
     - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
       propertyPath: m_RootOrder
       value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.39564002
       objectReference: {fileID: 0}
     - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4165,11 +4161,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 457228, guid: 189dff70245addd45bf37c2e992c9912, type: 3}
   m_PrefabInstance: {fileID: 478902658}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &491065519 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 125360, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-  m_PrefabInstance: {fileID: 44484335}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &495308621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6531,18 +6522,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
   m_PrefabInstance: {fileID: 44484335}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &755955052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491065519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d755f0e01ba7ee4589cbb5178217a18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &762962309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6689,7 +6668,7 @@ GameObject:
   - component: {fileID: 775950966}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Has1Key
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6707,7 +6686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
-  walkSpeed: 15
+  walkSpeed: 3
   gravity: 10
   lookSpeed: 2
   lookXLimit: 45
@@ -7598,10 +7577,6 @@ PrefabInstance:
       value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.39564002
-      objectReference: {fileID: 0}
-    - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.777672
       objectReference: {fileID: 0}
@@ -7640,6 +7615,30 @@ PrefabInstance:
     - target: {fileID: 474866, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 269.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554950, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
+      propertyPath: m_Size.x
+      value: 1.8706892
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554950, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2652221
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554950, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
+      propertyPath: m_Size.z
+      value: 1.5120205
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554950, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
+      propertyPath: m_Center.x
+      value: 0.62050426
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554950, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
+      propertyPath: m_Center.y
+      value: -0.02339666
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554950, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
+      propertyPath: m_Center.z
+      value: 0.7360088
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 516fd0d5b53125c48abf9d5a06873180, type: 3}
@@ -10830,7 +10829,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &1230700486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11592,7 +11590,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1308430434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13272,7 +13269,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &1512625410
 BoxCollider:
   m_ObjectHideFlags: 0

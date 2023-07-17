@@ -322,7 +322,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &813915892
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,11 +666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 430078787193968933, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 501.4236
       objectReference: {fileID: 0}
     - target: {fileID: 430078787193968933, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 95
+      value: 127.7437
       objectReference: {fileID: 0}
     - target: {fileID: 430078787193968933, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -703,11 +702,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 430078787193968933, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -20
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 430078787193968933, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -44
+      value: -59.6
       objectReference: {fileID: 0}
     - target: {fileID: 430078787193968933, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

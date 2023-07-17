@@ -12,5 +12,10 @@ public class LoadScene : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        else if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Entered elif");
+            SceneManager.LoadScene("Level1");
+        }
     }
 }
