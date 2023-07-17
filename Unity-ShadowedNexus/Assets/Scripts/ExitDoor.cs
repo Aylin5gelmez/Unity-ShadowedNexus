@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Doors : MonoBehaviour
+public class ExitDoor : MonoBehaviour
 {
     public Animator door;
     public GameObject openText;
@@ -65,7 +65,7 @@ public class Doors : MonoBehaviour
 
     void isItLocked()
     {
-        if (inReach && Input.GetButtonDown("Interact") && tag.Equals("Has1Key"))
+        if (inReach && Input.GetButtonDown("Interact") && CompareTag("Has2Key"))
         {
             DoorOpens();
         }

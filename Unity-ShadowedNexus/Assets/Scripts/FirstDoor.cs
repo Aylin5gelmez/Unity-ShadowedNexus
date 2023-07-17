@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Doors : MonoBehaviour
+public class FirstDoor : MonoBehaviour
 {
     public Animator door;
     public GameObject openText;
-    public GameObject closeText;
-
 
     public AudioSource doorSound;
 
@@ -46,7 +44,10 @@ public class Doors : MonoBehaviour
 
     void Update()
     {
-        isItLocked();
+        if (inReach && Input.GetButtonDown("Interact"))
+        {
+            DoorOpens();
+        }
     }
     void DoorOpens()
     {
@@ -55,25 +56,4 @@ public class Doors : MonoBehaviour
         door.SetBool("Closed", false);
         doorSound.Play();
     }
-
-    IEnumerator WaitAndShowText()
-    {
-        closeText.SetActive(true);
-        yield return new WaitForSeconds(3);
-        closeText.SetActive(false);
-    }
-
-    void isItLocked()
-    {
-        if (inReach && Input.GetButtonDown("Interact") && tag.Equals("Has1Key"))
-        {
-            DoorOpens();
-        }
-        else if (inReach && Input.GetButtonDown("Interact"))
-        {
-            StartCoroutine(WaitAndShowText());
-        }
-    }
-
-
 }
