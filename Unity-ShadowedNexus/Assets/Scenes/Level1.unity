@@ -2459,7 +2459,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1955645605
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 1498388530, guid: 0368f3ee9c2893040ad6024078392bac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4860,7 +4860,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1955645605
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.9055221, y: 1.7349999, z: 0}
@@ -7481,7 +7481,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 82847469
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.55499995, y: 0.19999999, z: 0}
@@ -10212,6 +10212,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1250130486, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1339583239, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
       propertyPath: _text
       value: 
@@ -10230,11 +10234,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6270527686177566328, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.81
+      value: -8.35
       objectReference: {fileID: 0}
     - target: {fileID: 6270527686177566328, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 6270527686177566328, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10266,6 +10270,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6270527686177566328, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6270527686177566329, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
+      propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6270527686177566331, guid: 520f982bcbbf45141a45b3af97d77ffc, type: 3}
