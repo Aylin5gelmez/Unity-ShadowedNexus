@@ -129,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candy: 0
   _text: {fileID: 3233543594849989055}
-  clickSound: {fileID: 8300000, guid: 84c4a817d27dbc54484def8f9f0d8044, type: 3}
+  clickSound: {fileID: 0}
 --- !u!1 &3233543594849989050
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 208, y: 156}
+  m_AnchoredPosition: {x: 615, y: 459}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3233543594849989054
