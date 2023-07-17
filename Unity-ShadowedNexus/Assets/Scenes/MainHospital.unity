@@ -6821,7 +6821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
-  walkSpeed: 20
+  walkSpeed: 3
   gravity: 10
   lookSpeed: 2
   lookXLimit: 45
@@ -10942,10 +10942,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7899ae90c8907f04f9f08aad0f6d7827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 1230700485}
-  openText: {fileID: 526788414}
+  door: {fileID: 0}
+  openText: {fileID: 0}
   closeText: {fileID: 0}
-  doorSound: {fileID: 697748066}
+  player: {fileID: 0}
+  doorSound: {fileID: 0}
   inReach: 0
 --- !u!95 &1230700485
 Animator:
@@ -11710,6 +11711,7 @@ MonoBehaviour:
   door: {fileID: 1300080268}
   openText: {fileID: 526788414}
   closeText: {fileID: 696416977}
+  player: {fileID: 775950962}
   doorSound: {fileID: 697748066}
   inReach: 0
 --- !u!65 &1300080267
@@ -13414,7 +13416,7 @@ Animator:
   m_GameObject: {fileID: 1512625408}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 119619333b1847341a183fc4f8ddb150, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0618866432dbe054db04687445fbc3b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13468,6 +13470,7 @@ MonoBehaviour:
   door: {fileID: 1512625409}
   openText: {fileID: 526788414}
   closeText: {fileID: 696416977}
+  player: {fileID: 775950962}
   doorSound: {fileID: 697748066}
   inReach: 0
 --- !u!4 &1516035003 stripped
@@ -17550,7 +17553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479918, guid: 9c25864566bc2a7489bef25ecb47dd6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.870632
+      value: 34.8
       objectReference: {fileID: 0}
     - target: {fileID: 479918, guid: 9c25864566bc2a7489bef25ecb47dd6c, type: 3}
       propertyPath: m_LocalPosition.y
