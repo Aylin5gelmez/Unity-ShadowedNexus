@@ -25,9 +25,5 @@ public class LoadScene : MonoBehaviour
             Debug.Log(other.gameObject.tag);
 
         }
-        else
-        {
-            SceneManager.LoadScene("WinScene");
-        }
     }
 }

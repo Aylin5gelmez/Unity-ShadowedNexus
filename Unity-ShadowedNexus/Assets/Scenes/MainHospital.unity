@@ -4569,7 +4569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506365217}
   - component: {fileID: 506365216}
-  - component: {fileID: 506365215}
+  - component: {fileID: 506365218}
   m_Layer: 0
   m_Name: QUIT
   m_TagString: Untagged
@@ -4577,18 +4577,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &506365215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506365214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d755f0e01ba7ee4589cbb5178217a18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &506365216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4617,6 +4605,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &506365218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506365214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f0cb771135517e409e7b5526177424b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &511623746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7124,7 +7124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
-  walkSpeed: 20
+  walkSpeed: 3
   gravity: 10
   lookSpeed: 2
   lookXLimit: 45
