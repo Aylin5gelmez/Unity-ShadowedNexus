@@ -226,8 +226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: 94}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -1059.2, y: 208.59}
+  m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &923933555
 MonoBehaviour:
@@ -249,7 +249,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "YOU W\u0130N!"
+  m_text: "CONGRULATIONS!!\nYOU MANAGED TO ESCAPE AND \nSAVE YOUR LIFE FROM THIS
+    HOSPITAL"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8572dec9643953f45b2897e0fd2923f1, type: 2}
   m_sharedMaterial: {fileID: -5332052031343721628, guid: 8572dec9643953f45b2897e0fd2923f1, type: 2}
@@ -276,15 +277,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -512,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 430078787644687656, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_text
-      value: Exit
+      value: QUIT GAME
       objectReference: {fileID: 0}
     - target: {fileID: 430078787644687656, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
       propertyPath: m_fontSize
@@ -582,11 +583,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: affd61deceff31443bf5e235ed8a4a58, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cc1c662fd927bdd439604dc43ae26d10, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 2
+  m_DrawMode: 0
   m_Size: {x: 22.960007, y: 10.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -602,12 +603,23 @@ Transform:
   m_GameObject: {fileID: 1318194382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.0141, y: 0.26, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7937505, y: 1.4222223, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810606789 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 430078787193968932, guid: c0b84013509c90b4394a297583e27a4c, type: 3}
+  m_PrefabInstance: {fileID: 1207622532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2102973880
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +632,7 @@ GameObject:
   - component: {fileID: 2102973883}
   - component: {fileID: 2102973882}
   - component: {fileID: 2102973881}
+  - component: {fileID: 2102973885}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -710,3 +723,16 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2102973885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102973880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6adfa32c9498d54089b665692dfbb89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1810606789}

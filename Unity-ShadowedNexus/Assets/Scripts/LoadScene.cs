@@ -19,11 +19,15 @@ public class LoadScene : MonoBehaviour
         else if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Entered elif");
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("EntryScene");
             Debug.Log(other.gameObject.tag);
             other.gameObject.tag = other.gameObject.tag.Replace("Player", "Has1Key");
             Debug.Log(other.gameObject.tag);
 
+        }
+        else
+        {
+            SceneManager.LoadScene("WinScene");
         }
     }
 }
